@@ -1,4 +1,7 @@
-# Priya.co
-This is my first Git repository 
-<br>
-Author priya attarde
+# C Programming Programs
+
+This repository contains my C programming practice programs.
+
+Programs:
+- Hello World
+- Factorial
