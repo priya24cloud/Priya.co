@@ -1,7 +1,12 @@
+
 # C Programming Programs
 
-This repository contains my C programming practice programs.
+👩‍💻 Name: Priya
+🎓 Diploma in Computer Engineering
+🚀 Learning C, Git & GitHub
 
 Programs:
 - Hello World
 - Factorial
+- Prime Number
+
