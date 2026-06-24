@@ -4,27 +4,61 @@
 <title>Priya.co</title>
 <style>
 body{
-font-family:Arial,sans-serif;
-background:#f4f4f4;
-padding:20px;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    margin:0;
+    padding:20px;
 }
 
 .container{
-max-width:800px;
-margin:auto;
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px gray;
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
 }
 
 h1{
-color:blue;
+    color:#2575fc;
+    text-align:center;
 }
 
-a{
-text-decoration:none;
-color:blue;
+h2{
+    color:#444;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.profile img{
+    width:120px;
+    border-radius:50%;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:#f4f4f4;
+    margin:10px 0;
+    padding:12px;
+    border-radius:8px;
+}
+
+li:hover{
+    background:#2575fc;
+    color:white;
+}
+
+.footer{
+    text-align:center;
+    margin-top:20px;
+    color:gray;
 }
 </style>
 </head>
@@ -33,23 +67,31 @@ color:blue;
 
 <div class="container">
 
-<h1>👩‍💻 Priya.co</h1>
+<div class="profile">
+    <h1>👩‍💻 Priya.co</h1>
+    <p>🎓 Diploma in Computer Engineering</p>
+    <p>🚀 Learning C, Git & GitHub</p>
+</div>
 
-<h2>C Programming Programs</h2>
-
-<p>
-🎓 Diploma in Computer Engineering<br>
-🚀 Learning C, Git & GitHub
-</p>
-
-<h3>Programs</h3>
+<h2>📚 C Programming Programs</h2>
 
 <ul>
-<li><a href="#">Hello World</a></li>
-<li><a href="#">Factorial</a></li>
-<li><a href="#">Prime Number</a></li>
-<li><a href="#">Odd and Even</a></li>
+    <li>Hello World</li>
+    <li>Factorial Program</li>
+    <li>Prime Number</li>
+    <li>Odd and Even</li>
 </ul>
+
+<h2>🛠 Skills</h2>
+<ul>
+    <li>C Programming</li>
+    <li>HTML & CSS</li>
+    <li>Git & GitHub</li>
+</ul>
+
+<div class="footer">
+    © 2026 Priya.co
+</div>
 
 </div>
 
