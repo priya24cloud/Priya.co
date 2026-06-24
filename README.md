@@ -9,4 +9,4 @@ Programs:
 - Hello World
 - Factorial
 - Prime Number
-
+- odd and even
