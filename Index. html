@@ -1,7 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Priya.co</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+padding:20px;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+h1{
+color:blue;
+}
+
+a{
+text-decoration:none;
+color:blue;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>👩‍💻 Priya.co</h1>
+
 <h2>C Programming Programs</h2>
 
 <p>
-🎓 Diploma in Computer Engineering <br>
+🎓 Diploma in Computer Engineering<br>
 🚀 Learning C, Git & GitHub
 </p>
 
@@ -15,6 +52,6 @@
 </ul>
 
 </div>
+
 </body>
 </html>
-HTML
