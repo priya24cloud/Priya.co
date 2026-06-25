@@ -1,99 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Priya.co</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priya Portfolio</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    font-family:Arial,sans-serif;
-    background:linear-gradient(135deg,#6a11cb,#2575fc);
-    margin:0;
-    padding:20px;
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
 }
 
-.container{
-    max-width:800px;
-    margin:auto;
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+header{
+text-align:center;
+padding:60px 20px;
 }
 
-h1{
-    color:#2575fc;
-    text-align:center;
+header h1{
+font-size:3rem;
+}
+
+header p{
+font-size:1.2rem;
+margin-top:10px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:white;
+color:black;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 
 h2{
-    color:#444;
+margin-bottom:15px;
 }
 
-.profile{
-    text-align:center;
-    margin-bottom:20px;
+.skills span{
+display:inline-block;
+background:#667eea;
+color:white;
+padding:10px 15px;
+margin:5px;
+border-radius:20px;
 }
 
-.profile img{
-    width:120px;
-    border-radius:50%;
+.project{
+margin:10px 0;
+padding:15px;
+background:#f4f4f4;
+border-radius:10px;
 }
 
-ul{
-    list-style:none;
-    padding:0;
+footer{
+text-align:center;
+padding:20px;
+background:black;
 }
 
-li{
-    background:#f4f4f4;
-    margin:10px 0;
-    padding:12px;
-    border-radius:8px;
-}
-
-li:hover{
-    background:#2575fc;
-    color:white;
-}
-
-.footer{
-    text-align:center;
-    margin-top:20px;
-    color:gray;
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 20px;
+background:#667eea;
+color:white;
+text-decoration:none;
+border-radius:10px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
+<h1>👩‍💻 Priya</h1>
+<p>Diploma in Computer Engineering</p>
+<p>Future Software Engineer 🚀</p>
+<a href="#contact" class="btn">Contact Me</a>
+</header>
 
-<div class="profile">
-    <h1>👩‍💻 Priya.co</h1>
-    <p>🎓 Diploma in Computer Engineering</p>
-    <p>🚀 Learning C, Git & GitHub</p>
+<section>
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+Hello! I am Priya, a Diploma Computer Engineering student.
+I am learning C Programming, Git, GitHub, HTML and Web Development.
+My goal is to become a Software Engineer.
+</p>
 </div>
 
-<h2>📚 C Programming Programs</h2>
+<div class="card">
+<h2>Skills</h2>
+<div class="skills">
+<span>C Programming</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>Git</span>
+<span>GitHub</span>
+<span>Problem Solving</span>
+</div>
+</div>
 
-<ul>
-    <li>Hello World</li>
-    <li>Factorial Program</li>
-    <li>Prime Number</li>
-    <li>Odd and Even</li>
-</ul>
+<div class="card">
+<h2>Projects</h2>
 
-<h2>🛠 Skills</h2>
-<ul>
-    <li>C Programming</li>
-    <li>HTML & CSS</li>
-    <li>Git & GitHub</li>
-</ul>
+<div class="project">
+<h3>Hello World Program</h3>
+<p>My first C program.</p>
+</div>
 
-<div class="footer">
-    © 2026 Priya.co
+<div class="project">
+<h3>Factorial Program</h3>
+<p>Program to calculate factorial of a number.</p>
+</div>
+
+<div class="project">
+<h3>Prime Number Checker</h3>
+<p>Checks whether a number is prime or not.</p>
+</div>
+
+<div class="project">
+<h3>Odd & Even Checker</h3>
+<p>Checks if a number is odd or even.</p>
 </div>
 
 </div>
+
+<div class="card" id="contact">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+<p>GitHub: github.com/priya24cloud</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Priya Portfolio | Made with ❤️</p>
+</footer>
 
 </body>
 </html>
