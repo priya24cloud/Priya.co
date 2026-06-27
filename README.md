@@ -4,9 +4,21 @@
 👩‍💻 Name: Priya
 🎓 Diploma in Computer Engineering
 🚀 Learning C, Git & GitHub
+# C Programming Practice
 
-Programs:
+This repository contains my C language programs for Diploma Computer Engineering.
+
+## Programs
 - Hello World
-- Factorial
+- Addition
+- Odd Even
+- Largest Number
 - Prime Number
-- odd and even
+- Array Programs
+
+
+## Language
+- C
+
+## Author
+priyanka attarde
