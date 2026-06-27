@@ -12,6 +12,7 @@ This repository contains my C language programs for Diploma Computer Engineering
 - Hello World
 - Addition
 - Odd Even
+- Factorial 
 - Largest Number
 - Prime Number
 - Array Programs
